@@ -83,7 +83,11 @@ const Contact = () => {
                   className="w-full px-6 py-3 bg-primary text-white rounded-full hover:bg-primary-dark transition-colors duration-300"
                    >
                     Send Message
+<<<<<<< HEAD
                   </button>2
+=======
+                  </button>
+>>>>>>> c7ac2dee446fa9c000d0dcbcde815c7267519a95
                 </form>
               </div>
             </div>
