@@ -39,38 +39,27 @@ const About = () => {
               </div>
 
               <h2 className='text-4xl md:text-5xl font-black leading-tight animate-fade-in animation-delay-100 text-secondary-foreground'>
-                Building the future,
+                Where creativity meets code,
                 <span className='font-serif italic font-normal text-white'> 
-                  {' '}one component at a time.
+                  {' '}crafting experiences that click.
                 </span>
               </h2>
 
               <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                 <p>
-                  I'm a passionate software engineer with over 5 years of
-                  experience crafting digital products that make a difference. My
-                  journey started with a curiosity for how things work on the web,
-                  and it has evolved into a deep expertise in modern frontend
-                  technologies.
+                  I’m a passionate web developer with nearly two years of experience in UI/UX design and website development. My journey started with a curiosity about how websites work, and it has grown into a strong foundation in both design and frontend development.
                 </p>
                 <p>
-                  I specialize in React, Next.js, and TypeScript, building
-                  everything from sleek landing pages to complex enterprise
-                  applications. My approach combines technical excellence with a
-                  keen eye for design and user experience.
+                 I specialize in building clean, responsive, and user-friendly websites using WordPress—from engaging landing pages to fully functional business sites. With a background in UI/UX, I focus on creating experiences that are not only visually appealing but also intuitive and effective.
                 </p>
                 <p>
-                  When I'm not coding, you'll find me exploring new technologies,
-                  contributing to open-source projects, or sharing knowledge with
-                  the developer community.
+                  When I’m not coding, I’m exploring new technologies, improving my skills, and working on projects that challenge my creativity and growth as a developer.
                 </p>
               </div>
 
               <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
                 <p className="text-lg font-medium italic text-foreground">
-                  "My mission is to create digital experiences that are not just
-                  functional, but truly delightful — products that users love to
-                  use and developers love to maintain."
+                  "My mission is to create web experiences that go beyond functionality—where clean code meets intuitive design and every interaction feels seamless."
                 </p>
               </div>
             </div>

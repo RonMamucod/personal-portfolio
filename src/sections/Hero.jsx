@@ -7,25 +7,23 @@ import {
   Linkedin,
   Twitter,
   Download,
+  Facebook,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "React",
-  "Next.js",
-  "TypeScript",
-  "Node.js",
-  "GraphQL",
-  "PostgreSQL",
-  "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
+  "Wordpress",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "PHP",
   "Vercel",
   "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
+  "Laravel",
+  "Bootstrap",
+  "Adobe Photoshop",
+  "Affinity Designer",
   "Figma",
   "Git",
   "GitHub Actions",
@@ -73,27 +71,31 @@ const Hero = () => {
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
+                Shaping <span className="text-primary glow-text">digital</span>
                 <br />
                 experiences with
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  code and creativity.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I’m Ron Mamucod — a web developer specializing in WordPress and frontend design. I create responsive, user-friendly websites that people enjoy using.
               </p>
             </div>
 
             {/* CTA */}
             <div className='flex flex-wrap gap-4 animate-fade-in animate-delay-300'>
-              <Button size='lg'>Contact Me <ArrowRight className='w-5 h-5'/></Button>
+              <Button size='lg'>
+                <a href="#contact" className="flex items-center gap-2">
+                  Contact Me <ArrowRight className='w-5 h-5'/>
+                </a>
+              </Button>
               <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
+                <Download className="w-5 h-5"/>
+                <a href="/public/RESUME_MAMUCOD.pdf" target='_blank' className="flex items-center gap-2">
+                  Download CV
+                </a>
               </AnimatedBorderButton>
             </div>
 
@@ -101,9 +103,9 @@ const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Github, href: "https://github.com/RonMamucod" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/ron-mamucod-150588282/" },
+                { icon: Facebook, href: "https://www.facebook.com/RonMamucod03" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -140,7 +142,7 @@ const Hero = () => {
                 {/* Stats Badge */}
                 <div className='absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500'>
                   <div className='text-xl font-bold text-primary'>
-                    5+
+                    2+
                   </div>
                   <div className='text-xs text-muted-foreground'>
                     Years Exp.

@@ -30,7 +30,7 @@ const Navbar = () => {
       }  z-50`}>
         <nav className='container mx-auto px-6 flex items-center justify-between'>
             <a href="#" className='text-xl font-bold tracking-tight hover:text-primary'>
-                RM <span className='text-primary'>.</span>
+                <img src="/RM-Logo.png" alt="Ron Mamucod" width="60" height="60" />
             </a>
 
             {/* Desktop Nav */}
@@ -46,7 +46,11 @@ const Navbar = () => {
 
             {/* CTA Button */}
             <div className='hidden md:block'>
-                <Button size='sm'>Contact Me</Button>
+                <Button size='sm'>
+                    <a href="#contact" className="flex items-center gap-2">
+                        Contact Me
+                    </a>
+                </Button>
             </div>
 
             {/* Mobile Menu Button */}
@@ -65,7 +69,11 @@ const Navbar = () => {
                         </a>
                     ))}
 
-                <Button onClick={() => setIsMobileMenuOpen(false)}>Contact Me</Button>
+                <Button onClick={() => setIsMobileMenuOpen(false)}>
+                    <a href="#contact" className="flex items-center gap-2">
+                        Contact Me
+                    </a>
+                </Button>
             </div>
         </div>
         )}

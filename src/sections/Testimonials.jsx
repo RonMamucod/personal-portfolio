@@ -5,35 +5,27 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
-      "Pedro is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
-    author: "Sarah Chen",
-    role: "CTO, Tech Innovators Inc.",
+      "Ron is a highly skilled web developer with a keen eye for detail. His ability to turn complex ideas into clean, user-friendly websites is truly impressive.ons is remarkable.",
+    author: "Denver Rivera",
+    role: "Team Leader, Getmilk.",
     avatar:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+      "https://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png",
   },
   {
     quote:
-      "Working with Pedro was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
-    author: "Michael Rodriguez",
-    role: "Product Manager, Digital Solutions",
+      "Working with Ron was a game-changer for our project. He delivered on time with clean, high-quality code that set a new standard for our team.",
+    author: "AJ",
+    role: "Team Leader, Getmilk",
     avatar:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+      "https://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png",
   },
   {
     quote:
-      "Pedro's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
-    author: "Emily Watson",
-    role: "Engineering Lead, StartUp Labs",
+      "Ron’s expertise in WordPress and frontend development helped us revamp our entire website efficiently. His thoughtful design and coding decisions continue to bring lasting value.",
+    author: "Dustin",
+    role: "UI/UX Designer, Getmilk",
     avatar:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
-  },
-  {
-    quote:
-      "Not only is Pedro technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
-    author: "David Kim",
-    role: "CEO, Innovation Hub",
-    avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+      "https://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png",
   },
 ];
 
